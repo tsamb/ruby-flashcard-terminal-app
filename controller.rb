@@ -14,9 +14,9 @@ class Controller
   end
 
   def load_deck
-    deck_list = Dir["*.csv"].map {|file| file[0..-5]}
+    deck_list = Dir["*.csv"].map {|file_name| file_name[0..-5]}
     deck = ""
-    until deck_list.include?(deck) || deck == "exit"
+    until deck_list.include?(deck)
       View.display_decks(deck_list)
       deck = View.get_input
     end
