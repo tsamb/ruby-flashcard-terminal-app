@@ -14,3 +14,5 @@ card 1 front | card 1 back
 card 2 front | card 2 back
 card 3 front | card 3 back
 etc... | etc...
+
+If you make a new deck, fork this project, add the deck and make a pull request!
